@@ -68,6 +68,8 @@ class User
     this.username=username;
     this.umar=umar;
   }
+  //make a parameterised constructor
+  //User(this.username,this.umar); 
   void login()
   {
     print('user logged');
